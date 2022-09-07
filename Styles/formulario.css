@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: absolute;
+    background-color:#1CD1B0 ;
+    width: 100%;
+    height: 2.5rem;
+    box-sizing: border-box;
+}
+.parrafo{
+    font-style: normal;
+    position: relative;
+    margin-bottom: 0.1875rem;
+    margin-left: 1.875rem;
+    box-sizing: border-box;
+}
+
+.primerdiv{
+    position: absolute;
+    background-color: #00669F;
+    width: 100%;
+    height: 6.3125rem;
+    box-sizing: border-box;
+}
+.primerdiv img{
+    position: absolute;
+    bottom: 1.25rem;
+}
+.primerh1{
+    position: relative;
+    left: 7.5rem;
+    box-sizing: border-box;
+    top: 1.6875rem;
+    color: white;
+}
+.back{
+    background-color: black;
+    height: 1.875rem;
+    position: relative;
+    top: 5.625rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.back a{
+    margin: 0.3125rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 1.875rem;
+}
+main{
+    position: relative;
+    top: 11.25rem;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.formu{
+    display: flex;
+    width: 70vw;
+    text-align: center;
+    background-color: #00669F;
+    color: white;
+    border-radius: 2.5rem;
+    height: 650px;
+
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    
+}
+.select{
+    height: 3.125rem;
+    border-radius: 0.5rem;
+    width: 22vw;
+}
+.user{
+    height: 3.125rem;
+    border-radius: 0.5rem;
+    width:22vw; 
+}
+.secundario{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    margin-top: -50px;
+    
+}
+
+.contenedorf .fech{
+    height: 3.125rem;
+    width: 22vw;
+    border-radius: 0.5rem;
+    margin-top: 1.0625rem;
+}
+input .fot{
+width: 22vw;
+height: 70px;
+}
+.tercera{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    
+}
+.mitad2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 22vw;
+    line-height: 1.5625rem;
+    margin-left: 20px;
+    height: 30vh;
+    margin-top: -20px;
+    font-size: 0.875rem;
+
+}
+.tercera textarea{
+    width: 22vw;
+    height: 220px;
+    margin-top: -20px;
+    border-radius: 0.5rem;
+    margin-left: -20px;
+}
+.mitad2 hr{
+    width: 100%;
+}
+.name input{
+    height: 3.125rem;
+    width: 22vw;
+    border-radius: 0.5rem;
+    
+}
+.fecha input{
+    width: 22vw;
+    height: 3.125rem;
+    border-radius: 0.5rem;
+    
+}
+.fecha{
+    margin: 0.9375rem;
+}
+.name{
+    margin: 0.9375rem;
+}
+.bloque2{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 16px;
+}
+.contenedorfoto{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem;
+    align-items: flex-start;
+    margin-left: -0.25rem;
+    line-height: 1.25rem;
+    height: 90px;
+    width: 22vw;
+}
+.bloque1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contenedorfoto label{
+    margin-top: -4px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.fecha{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form button{
+    width: 30vw;
+    height: 10vh;
+    background-color:#1CD1B0;
+    border-radius: 1.125rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.titulo{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.none{
+    font-size: 20px;
+}
+footer{
+    position: absolute;
+    text-align: center;
+    height: 7vh;
+    background-color: #00669F;
+    width: 100vw;
+    margin-top: 200px;
+
+}
+footer p{
+    margin-top: 13px;
+    color: white;
+}
+.bloque22{
+    display: none;
+}
+.tercera2{
+    display: none;
+}
+.espacio, .espacio2{
+    display: none;
+}
+.icon{
+    display: none;
+}
+@media (max-width:600px){
+    .formu{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+        background-color: #00669F;
+        color: white;
+        height: 120vh;
+        border-radius: 0px;
+
+}
+    .formu h1{
+        font-size: 30px;
+    }
+    .none{
+        font-size: 15px;
+    }
+    footer{
+        display: none;   
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    
+}
+.bloque1{
+    margin-left: -35px;
+}
+.bloque2{
+    display: none;
+
+}
+.name{
+    flex-direction: row;
+    align-items: center;
+    margin-left: 45px;
+}
+.fecha{
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+.bloque22{
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+}
+.especie{
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+}
+.contenedorfoto{
+    flex-direction: row;
+    margin-left: 70px;
+    width: 70vw;
+}
+.name input{
+    height: 3.125rem;
+    width: 70vw;
+    border-radius: 0.5rem;
+    margin: 10px;
+}
+.fecha input{
+    width: 73.5vw;
+    height: 3.125rem;
+    border-radius: 0.5rem;
+    margin: 10px;
+    
+    
+}
+.especimen .select{
+    width: 70vw;
+}
+.contenedorfoto input{
+    margin: 10px;
+}
+.tercera{
+    flex-direction: column-reverse;
+}
+.tercera textarea{
+    display: none;
+}
+.tercera2 textarea{
+    height: 20vh;
+    width: 40vh;
+    
+}
+form button{
+    width: 100vw;
+    height: 5vh;
+    background-color:#1CD1B0;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 21px;
+}
+main{
+    position: relative;
+    top: 81.5px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    }
+.mitad2{
+    margin-left: 50px;
+    margin-top: -85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48vh;
+    font-size: 18px;
+}
+.parrafo{
+    display: none;
+}
+.primerdiv{
+    position: absolute;
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 6.3125rem;
+    box-sizing: border-box;
+    border: black 2px solid;
+}
+.back{
+    display: none;
+}
+.tercera{
+    display: none;
+}
+.tercera2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.espacio, .espacio2{
+    display: block;
+}
+.icon{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    z-index: 4;
+    color: white;
+    margin-top: 35px;
+    margin-left: 420px;
+    text-align: end;
+    background-color: o;
+}
+.icon i{
+    color: white;
+}
+.list{
+    display: none;
+    color: black;
+}
+.icon i:hover> .list{
+        color: black;
+        display: block;
+    }
+}
+
+@media (max-width:430px){
+    .formu{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+        background-color: #00669F;
+        color: white;
+        height: 120vh;
+        border-radius: 0px;
+
+}
+    .formu h1{
+        font-size: 30px;
+    }
+    .none{
+        font-size: 15px;
+    }
+    footer{
+        display: none;   
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    
+}
+.bloque1{
+    margin-left: -35px;
+}
+.bloque2{
+    display: none;
+
+}
+.name{
+    flex-direction: row;
+    align-items: center;
+    margin-left: 45px;
+}
+.fecha{
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+.bloque22{
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+}
+.especie{
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+}
+.contenedorfoto{
+    flex-direction: row;
+    margin-left: 70px;
+    width: 70vw;
+}
+.name input{
+    height: 3.125rem;
+    width: 70vw;
+    border-radius: 0.5rem;
+    margin: 10px;
+}
+.fecha input{
+    width: 73.5vw;
+    height: 3.125rem;
+    border-radius: 0.5rem;
+    margin: 10px;
+    
+    
+}
+.especimen .select{
+    width: 70vw;
+}
+.contenedorfoto input{
+    margin: 10px;
+}
+.tercera{
+    flex-direction: column-reverse;
+}
+.tercera textarea{
+    display: none;
+}
+.tercera2 textarea{
+    height: 20vh;
+    width: 40vh;
+    
+}
+form button{
+    width: 100vw;
+    height: 5vh;
+    background-color:#1CD1B0;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 21px;
+}
+main{
+    position: relative;
+    top: 81.5px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    }
+.mitad2{
+    margin-left: 50px;
+    margin-top: -85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48vh;
+    font-size: 18px;
+}
+.parrafo{
+    display: none;
+}
+.primerdiv{
+    position: absolute;
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 6.3125rem;
+    box-sizing: border-box;
+    border: black 2px solid;
+}
+.back{
+    display: none;
+}
+.tercera{
+    display: none;
+}
+.tercera2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.espacio, .espacio2{
+    display: block;
+}
+.icon{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    z-index: 4;
+    color: white;
+    margin-top: 35px;
+    margin-left: 320px;
+    text-align: end;
+}
+.icon i{
+    color: white;
+}
+.list{
+    display: none;
+    color: black;
+}
+.icon i:hover> .list{
+        color: black;
+        display: block;
+    }
+    .primerh1{
+        position: relative;
+        left: 90px;
+        box-sizing: border-box;
+        top: 1.6875rem;
+        color: white;
+}
+}
+
